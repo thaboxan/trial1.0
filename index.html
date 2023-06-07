@@ -1,21 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Build a personal portfolio project</title>
-    <link rel="stylesheet" href="css/style.css">
-
-    <style>
-      @media screen and (min-width: 480px){
-        #welcome-section{
-          height: 100vh;
-        }
-
-        #navbar{
-          position: fixed;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -23,19 +11,21 @@
 
     <nav id="navbar">
       <a href="#about">About</a>
-     </nav>
+    </nav>
 
-    <a id ="profile-link" href="https://www.github.com" target ="_blank"> Profile link   </a>
+    <a id="profile-link" href="https://www.github.com" target="_blank">
+      Profile link
+    </a>
 
+    <div id="welcome-section">
+      <h1>Welcome I am Mimic</h1>
+    </div>
 
-<div id="welcome-section">
-    <h1 > Welcome I am Mimic </h1>
-  </div>
+    <section id="projects">
+      <div class="project-tile"></div>
+      <a href="">some project</a>
+    </section>
 
-<section id="projects">
-  <div id = "project-tile"></div>
-  <a href="">some project</a>
-</section>
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
